@@ -1,0 +1,33 @@
+.slider{
+	margin: 13px auto 0;
+	background: url(../img/slider_bg.png) repeat-x;
+	background-position: left 16px;
+    background-repeat: repeat-x;
+}
+
+.slider__wrapper{
+	width: 440px;
+}
+
+.slider__arrow{
+	padding: 116px 0 0 0;
+	vertical-align: top;
+}
+
+.slider__content{
+	display: inline-block;
+	margin: 0 auto;
+	padding: 103px 0 0 0;
+	width: 209px;
+	vertical-align: top;
+}
+
+.iphone{
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.switch-top{
+	top: -30px;
+	margin: 0px auto 26px;
+}

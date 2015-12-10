@@ -41,7 +41,7 @@ h1{
 }
 
 .main-menu{
-	margin: 23px auto;
+	margin: 23px auto 0;
 	width: 47px;
 	font-family: 'league_gothicregular', Arial, Tahoma, sans-serif;
 	font-size: 24px;
@@ -132,6 +132,11 @@ h1{
 	width: 100%;
 }
 
+.slider__wrapper{
+	display: table-cell;
+	width: 280px;
+}
+
 .slider__arrow{
 	display: table-cell;
 	text-align: center;
@@ -139,8 +144,12 @@ h1{
 }
 
 .slider__content{
-	display: table-cell;
-	width: 205px;
+	margin: 0 auto;
+	width: 240px;
+}
+
+.iphone{
+	display: none;
 }
 
 .slider__header{
