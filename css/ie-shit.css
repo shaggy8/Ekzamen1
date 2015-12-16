@@ -1,3 +1,13 @@
 header, nav, section, article, aside, footer {
    display:block;
 }
+
+.logos{
+	padding: 46px 0 0 0;
+	min-width: 320px;
+	text-align: center;
+}
+
+.logo{
+	margin: 0 7% 0 7%;
+}

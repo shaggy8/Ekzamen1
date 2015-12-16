@@ -3,12 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/ie-shit.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" media="screen and (min-width: 480px)" href="css/w480+.css"/>
 	<title>PINGBULLER</title>
 	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="css/ie-shit.css">
 		<script>
 		document.createElement('header');
 		document.createElement('nav');
@@ -39,14 +39,13 @@
 			</ul>
 		</header>
 		<div class="slider">
-			
 			<a href="#" class="slider__arrow slider__arrow-left"><img src="img/arrow-left.png" alt=""></a>
 			<div class="slider__wrapper">
 				<div class="slider__content">
 					<h2 class="slider__header">Lorem Ipsum Dolor</h2>
 					<h3 class="slider__underheader">IT WILL MAKE ALL OF YOUR DREAMS COME</h3>
 				</div>
-				<img src="img/iphone.png" alt="iphone" class="iphone">
+				<img src="img/iphone.png" alt="iphone" class="iphone w320hidden">
 			</div>
 			<a href="#" class="slider__arrow slider__arrow-right"><img src="img/arrow-right.png" alt=""></a>
 		</div>
@@ -99,67 +98,68 @@
 	</div>
 	<div class="wrapper-light">
 		<div class="underwrapper-light">
-			<img src="img/avatar.png" alt="" class="avatar">
-			<div class="from_blog">
-				<h4 class="from_blog__header">PingbulLer</h4>
-				<h4 class="from_blog__header from_blog__header--violet">starts here</h4>
-				<span class="from_blog__text">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</span>
+			<div class="underwrapper-light__internal">
+				<img src="img/avatar.png" alt="" class="avatar">
+				<div class="from_blog">
+					<h4 class="from_blog__header">PingbulLer</h4>
+					<h4 class="from_blog__header from_blog__header--violet">starts here</h4>
+					<span class="from_blog__text">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</span>
+				</div>
+				<div class="switch-blog">
+					<a href="#" class="switch-blog__link"><div></div></a>
+					<a href="#" class="switch-blog__link"><div></div></a>
+					<a href="#" class="switch-blog__link"><div></div></a>
+					<a href="#" class="switch-blog__link"><div></div></a>
+				</div>
+				<table class="news">
+					<tr>
+						<th class="news__header" colspan="2">
+							RECENT UPDATES
+						</th>
+					</tr>
+					<tr>
+						<td class="news__image_cell">
+							<img src="img/news_image1.png" class="news__image" alt="">
+						</td>
+						<td class="news__link_cell">
+							<a href="#" class="news__link">
+								Nunc turpis neque <span class="news__link--hidden w320hidden">feugiat eget</span>
+								<p class="news__about">Posted by Admin on March 13 <span class="news__about--hidden w320hidden">2012</span></p>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="news__image_cell">
+							<img src="img/news_image2.png" class="news__image" alt="">
+						</td>
+						<td class="news__link_cell">
+							<a href="#" class="news__link">
+								Nunc turpis neque <span class="news__link--hidden w320hidden">feugiat eget</span>
+								<p class="news__about">Posted by Admin on March 13 <span class="news__about--hidden w320hidden">2012</span></p>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="news__image_cell">
+							<img src="img/news_image3.png" class="news__image" alt="">
+						</td>
+						<td class="news__link_cell">
+							<a href="#" class="news__link">
+								Nunc turpis neque <span class="news__link--hidden w320hidden">feugiat eget</span>
+								<p class="news__about">Posted by Admin on March 13 <span class="news__about--hidden w320hidden">2012</span></p>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<a href="#" class="news__link_more">MORE BLOG POSTS</a>
+						</td>
+					</tr>
+				</table>
 			</div>
-			<div class="switch-blog">
-				<a href="#" class="switch-blog__link"><div></div></a>
-				<a href="#" class="switch-blog__link"><div></div></a>
-				<a href="#" class="switch-blog__link"><div></div></a>
-				<a href="#" class="switch-blog__link"><div></div></a>
-			</div>
-			<table class="news">
-				<tr>
-					<th class="news__header" colspan="2">
-						RECENT UPDATES
-					</th>
-				</tr>
-				<tr>
-					<td class="news__image_cell">
-						<img src="img/news_image1.png" class="news__image" alt="">
-					</td>
-					<td class="news__link_cell">
-						<a href="#" class="news__link">
-							Nunc turpis neque
-							<p class="news__about">Posted by Admin on March 13</p>
-						</a>
-					</td>
-				</tr>
-				<tr>
-					<td class="news__image_cell">
-						<img src="img/news_image2.png" class="news__image" alt="">
-					</td>
-					<td class="news__link_cell">
-						<a href="#" class="news__link">
-							Nunc turpis neque
-							<p class="news__about">Posted by Admin on March 13</p>
-						</a>
-					</td>
-				</tr>
-				<tr>
-					<td class="news__image_cell">
-						<img src="img/news_image3.png" class="news__image" alt="">
-					</td>
-					<td class="news__link_cell">
-						<a href="#" class="news__link">
-							Nunc turpis neque
-							<p class="news__about">Posted by Admin on March 13</p>
-						</a>
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2">
-						<a href="#" class="news__link_more">MORE BLOG POSTS</a>
-					</td>
-				</tr>
-			</table>
 		</div>
-		
 	</div>
-	<div class="prefooter">
+	<div class="logos">
 		<img src="img/logo1.png" class="logo" alt="logo">
 		<img src="img/logo2.png" class="logo" alt="logo">
 		<img src="img/logo3.png" class="logo" alt="logo">
@@ -167,7 +167,41 @@
 		<img src="img/logo5.png" class="logo" alt="logo">
 		<img src="img/logo6.png" class="logo" alt="logo">
 	</div>
+	<div class="prefooter w320hidden">
+		<div class="prefooter__text_block">
+			<h4 class="prefooter__header">
+			NEWS CATEGORIES
+			</h4>
+			<p class="prefooter__text">
+				Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.
+			</p>
+		</div>
+		<div class="prefooter__text_block">
+			<h4 class="prefooter__header">
+			NEWS CATEGORIES
+			</h4>
+			<p class="prefooter__text">
+				Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.
+			</p>
+		</div>
+		<div class="prefooter__text_block">
+			<h4 class="prefooter__header">
+			NEWS CATEGORIES
+			</h4>
+			<p class="prefooter__text">
+				Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.
+			</p>
+		</div>
+	</div>
 	<footer>
+		<ul class="menu footer-menu w320hidden">
+			<li class="footer-menu__item"><a class="footer-menu__link" href="#">Home</a></li>
+			<li class="footer-menu__item"><a class="footer-menu__link" href="#">About</a></li>
+			<li class="footer-menu__item"><a class="footer-menu__link" href="#">Blog</a></li>
+			<li class="footer-menu__item"><a class="footer-menu__link" href="#">Products</a></li>
+			<li class="footer-menu__item"><a class="footer-menu__link" href="#">Lorem Ipsum</a></li>
+			<li class="footer-menu__item"><a class="footer-menu__link" href="#">Dolor Sit Amet</a></li>
+		</ul>
 		<span class="footer__text">Designed by </span><span class="footer__text footer__text--bold">Pingbull AS</span>
 	</footer>
 </body>

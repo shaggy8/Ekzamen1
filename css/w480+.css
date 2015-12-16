@@ -1,24 +1,33 @@
+.wrapper-top{
+	min-width: 480px;
+}
+
 .slider{
 	margin: 13px auto 0;
 	background: url(../img/slider_bg.png) repeat-x;
 	background-position: left 16px;
-    background-repeat: repeat-x;
 }
 
 .slider__wrapper{
-	width: 440px;
+	padding: 0 0 0 8px;
+	min-width: 440px;
 }
 
-.slider__arrow{
-	padding: 116px 0 0 0;
+.slider__arrow-left{
+	padding: 111px 0 0 0;
+	vertical-align: top;
+}
+
+.slider__arrow-right{
+	padding: 115px 0 0 0;
 	vertical-align: top;
 }
 
 .slider__content{
 	display: inline-block;
 	margin: 0 auto;
-	padding: 103px 0 0 0;
-	width: 209px;
+	padding: 105px 0 0 0;
+	width: 213px;
 	vertical-align: top;
 }
 
@@ -30,4 +39,134 @@
 .switch-top{
 	top: -30px;
 	margin: 0px auto 26px;
+}
+
+.underwrapper-violet{
+	min-width: 480px;
+}
+
+.about_company--top{
+	margin: 61px 0 0 0;
+}
+
+.about_company--bottom{
+	margin: -4px 0 52px 0;
+}
+
+.underwrapper-light{
+	margin: 0 auto;
+	min-width: 480px;
+}
+
+.from_blog{
+	padding: 30px 32px 22px 38px;
+}
+
+.from_blog__header{
+	display: inline-block;
+	font-size: 30px;
+}
+
+.from_blog__text{
+	margin: 15px 0 0 0;
+}
+
+.switch-blog{
+	left: 8px;
+}
+
+.news{
+	width: 370px;
+}
+
+.news__header{
+	padding: 0 0 0 29px;
+}
+
+.news__image_cell{
+	padding: 0 0 0 29px;
+}
+
+.news__link_cell{
+	width: 278px;
+}
+
+.news__link{
+	letter-spacing: 0.0px;
+}
+
+.news__link--hidden, .news__about--hidden{
+	display: inline;
+}
+
+.news__about{
+	letter-spacing: -0.1px;
+}
+
+.logos{
+	align-content: center;
+	padding: 13px 50px 0 50px;
+	min-width: 380px;
+	height: 220px;
+}
+
+.logo{
+	margin: 0 5% 15px 5%;
+}
+
+.prefooter{
+	display: block;
+	margin: 0 auto;
+	padding: 76px 21px 0 19px;
+	border-top: 1px solid #d8d8d8;
+	min-width: 440px;
+	height: 592px;
+	background: #ececec;
+}
+
+.prefooter__text_block{	
+	margin: 0 0 55px 0;
+	height: 131px;
+	overflow: hidden;
+}
+
+.prefooter__header{
+	font-family: 'league_gothicregular', Arial, Tahoma, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	color: #454545;
+}
+
+.prefooter__text{
+	margin: 8px 0 0 0;
+	font-family: 'Open Sans', Arial, Tahoma, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: -0.1px;
+	color: #787878;
+}
+
+footer{
+	padding: 39px 0 0 0;
+	height: 162px;
+}
+
+.footer-menu{
+	display: block;
+	margin: 0 0 26px 0;
+}
+
+.footer-menu__item{
+	display: inline-block;
+	margin: 0 1.7% 0 2.6%;
+}
+
+.footer-menu__link{	
+	font-family: 'league_gothicregular', Arial, Tahoma, sans-serif;
+	font-size: 20px;
+	line-height: 34px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
 }
