@@ -4,23 +4,25 @@
 
 .slider{
 	margin: 13px auto 0;
-	background: url(../img/slider_bg.png) repeat-x;
+	background: url(../img/slider_bg480.png) repeat-x;
 	background-position: left 16px;
 }
 
-.slider__wrapper{
+.slider__content_wrapper{
 	padding: 0 0 0 8px;
-	min-width: 440px;
+	width: 440px;
+}
+
+.slider__arrow{
+	vertical-align: top;
 }
 
 .slider__arrow-left{
 	padding: 111px 0 0 0;
-	vertical-align: top;
 }
 
 .slider__arrow-right{
 	padding: 115px 0 0 0;
-	vertical-align: top;
 }
 
 .slider__content{
@@ -34,9 +36,12 @@
 .iphone{
 	display: inline-block;
 	margin: 0 auto;
+	width: 192px;
+	height: 310px;
+	background: url(../img/iphone480.png);
 }
 
-.switch-top{
+.switch-slider{
 	top: -30px;
 	margin: 0px auto 26px;
 }
@@ -54,7 +59,6 @@
 }
 
 .underwrapper-light{
-	margin: 0 auto;
 	min-width: 480px;
 }
 
@@ -71,7 +75,7 @@
 	margin: 15px 0 0 0;
 }
 
-.switch-blog{
+.from_blog__switch{
 	left: 8px;
 }
 
@@ -124,7 +128,7 @@
 	background: #ececec;
 }
 
-.prefooter__text_block{	
+.prefooter__text_block{
 	margin: 0 0 55px 0;
 	height: 131px;
 	overflow: hidden;
@@ -148,18 +152,20 @@
 }
 
 footer{
+	margin: 0 auto;
+	min-width: 480px;
 	padding: 39px 0 0 0;
 	height: 162px;
 }
 
 .footer-menu{
 	display: block;
-	margin: 0 0 26px 0;
+	margin: 0 0 27px 0;
 }
 
 .footer-menu__item{
 	display: inline-block;
-	margin: 0 1.7% 0 2.6%;
+	margin: 0 2.1% 0 2.2%;
 }
 
 .footer-menu__link{	
