@@ -2,12 +2,708 @@ header, nav, section, article, aside, footer {
    display:block;
 }
 
-.logos{
-	padding: 46px 0 0 0;
-	min-width: 320px;
+/*IE is really shit (it don't understand media-queries), and I dropped all css'es to one file. Fuck them all!*/
+
+header{
+	min-width: 480px;
+}
+
+.slider-wrapper{
+	margin: 13px auto 0;
+	min-width: 480px;
+}
+
+.slider{
+	background: url(../img/slider_bg480.png) repeat-x;
+	background-position: left 16px;
+}
+
+.slider__content_wrapper{
+	padding: 0 0 0 8px;
+	width: 440px;
+}
+
+.slider__arrow{
+	vertical-align: top;
+}
+
+.slider__arrow-left{
+	padding: 111px 0 0 0;
+}
+
+.slider__arrow-right{
+	padding: 115px 0 0 0;
+}
+
+.slider__content{
+	display: inline-block;
+	margin: 0 auto;
+	padding: 105px 0 0 0;
+	width: 213px;
+	vertical-align: top;
+}
+
+.iphone{
+	display: inline-block;
+	margin: 0 auto;
+	width: 192px;
+	height: 310px;
+	background: url(../img/iphone480.png);
+}
+
+.switch-slider{
+	top: -30px;
+	margin: 0px auto 26px;
+}
+
+.underwrapper-violet{
+	min-width: 480px;
+}
+
+.about_company--top{
+	margin: 61px 0 0 0;
+}
+
+.about_company--bottom{
+	margin: -4px 0 52px 0;
+}
+
+.underwrapper-light{
+	min-width: 480px;
+}
+
+.from_blog{
+	padding: 30px 32px 22px 38px;
+}
+
+.from_blog__header{
+	display: inline-block;
+	font-size: 30px;
+}
+
+.from_blog__text{
+	margin: 15px 0 0 0;
+}
+
+.from_blog__switch{
+	left: 8px;
+}
+
+.news{
+	width: 370px;
+}
+
+.news__header{
+	padding: 0 0 0 29px;
+}
+
+.news__image_cell{
+	padding: 0 0 0 29px;
+}
+
+.news__link_cell{
+	width: 278px;
+}
+
+.news__link{
+	letter-spacing: 0.0px;
+}
+
+.news__link--hidden, .news__about--hidden-to-480{
+	display: inline;
+}
+
+.news__about{
+	letter-spacing: -0.1px;
+}
+
+.logos-wrapper{
+	align-content: center;
+	padding: 13px 50px 0 50px;
+	min-width: 380px;
+	height: 220px;
+}
+
+.logo{
+	margin: 0 5% 15px 5%;
+}
+
+.prefooter{
+	display: block;
+	border-top: 1px solid #d8d8d8;
+	background: #ececec;
+
+}
+
+.prefooter-wrapper{
+	margin: 0 auto;
+	padding: 76px 21px 0 19px;
+	min-width: 440px;
+	height: 592px;
+}
+
+.prefooter__text_block{
+	margin: 0 0 55px 0;
+	height: 131px;
+	overflow: hidden;
+}
+
+.prefooter__header{
+	font-family: 'league_gothicregular', Arial, Tahoma, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	color: #454545;
+}
+
+.prefooter__text{
+	margin: 8px 0 0 0;
+	font-family: 'Open Sans', Arial, Tahoma, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: -0.1px;
+	color: #787878;
+}
+
+.footer-wrapper{
+	min-width: 480px;
+	padding: 39px 0 0 0;
+	height: 162px;
+}
+
+.footer-menu{
+	display: block;
+	margin: 0 0 27px 0;
+}
+
+.footer-menu__item{
+	display: inline-block;
+	margin: 0 2.1% 0 2.2%;
+}
+
+.footer-menu__link{	
+	font-family: 'league_gothicregular', Arial, Tahoma, sans-serif;
+	font-size: 20px;
+	line-height: 34px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header{
+	min-width: 768px;
+	text-align: left;
+}
+
+h1{
+	margin: 60px 0 0 2.7%;
+}
+
+.main-header{
+	margin: 0 3px 0 0;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.main-menu{
+	margin: 23px 0 0 2%;
+}
+
+.main-menu__item{
+	position: relative;
+	padding: 0 0 0 4px;
+	text-shadow: none;
+}
+
+.main-menu__hidden{
+	display: block;
+	margin: 0 auto;
+	width: 780px;
+	top: -6px;
+	left: 4px;
+	background: none;
+	border: none;
+}
+
+.main-menu__hidden-item{
+	display: inline-block;
+	margin: 0 6.16% 0 0;
+	width: auto;
+	text-shadow: none;
+}
+
+.main-menu__hidden-link{
+	display: block;
+	text-decoration: none;
+	border: none;
+	color: white;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.main-menu__hidden-link--top{
+	padding: 0 0 0 0;
+}
+
+.main-menu__hidden-link:hover{
+	background: none;
+}
+
+.main-menu__hidden-link--top:after{
+	content: " ";
+	display: none;
+}
+
+.main-menu__hidden-link:hover:after{
+	content: " ";
+	display: none;
+}
+
+.slider-wrapper{
+	margin: 48px auto 0;
+	min-width: 768px;
+}
+
+.slider{
+	background: url(../img/slider_bg768.png) repeat-x;
+	background-position: left 23px;
+}
+
+.slider__arrow-left{
+	padding: 196px 0 0 0;
+}
+
+.slider__arrow-right{
+	padding: 199px 0 0 0;
+}
+
+.slider__content_wrapper{
+	padding: 0 0 0 11px;
+	width: 728px;
+}
+
+.slider__content{
+	padding: 115px 117px 0 0;
+	width: 282px;
+}
+
+.slider__header{
+	font-size: 48px;
+	letter-spacing: -0.3px;
+}
+
+.slider__underheader{
+	font-size: 24px;
+	line-height: 31px;
+}
+
+.slider__text{
+	display: block;
+	height: 105px;
+	overflow: hidden;
+	font-family: 'Open Sans', Arial, Tahoma, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 25px;
+	letter-spacing: -0.05px;
+	color: white;
+}
+
+.slider__text:first-line{
+	line-height: 32px;
+}
+
+.iphone{
+	width: 274px;
+	height: 434px;
+	background: url(../img/iphone768.png);
+}
+
+.switch-slider{
+	top: 0px;
+	left: 201px;
+	margin: 22px auto 96px;
+}
+
+.underwrapper-violet{
+	min-width: 768px;
+}
+
+.about_company{
+	display: inline-block;
+	margin: 75px 0 59px 37px;
+	width: 27.5%;
+	border-spacing: 0px 0px;
+}
+
+.about_company--top{
+	margin: 75px 0 59px 26px;
+}
+
+.about_company--bottom{
+	margin: 75px 0 59px 46px;
+}
+
+.about_company__header{
+	padding: 0 0 0 26px;
+}
+
+.about_company__text{
+	padding: 0 0 0 26px;
+	height: 149px;
+}
+
+.about_company__link{
+	margin: 0 8px 0 0;
+}
+
+.wrapper-light{
+	padding: 100px 0 0 0;
+}
+
+.underwrapper-light{
+	min-width: 768px;
+}
+
+.wrapper-from_blog{
+	float: left;
+	width: 43.8%;
+}
+
+.from_blog{
+	padding: 29px 20px 23px 38px;
+}
+
+.from_blog__header{
+	display: block;
+	font-size: 24px;
+}
+
+.from_blog__text{
+	margin: 8px 0 0 0;
+	height: 145px;
+	letter-spacing: -0.4px;
+}
+
+.from_blog__switch{
+	left: 13px;
+}
+
+.news{
+	margin: 0 auto;
+	padding: 11px 0 75px 0;
+	width: 373px;
+}
+
+.news__link_more{
+	margin: -2px 17px 0px 0;
+}
+
+.logos-wrapper{
+	padding: 0;
+	min-width: 768px;
+	height: 120px;
+}
+
+.logo{
+	margin: 0;
+}
+
+.prefooter-wrapper{
+	padding: 98px 0 0 0;
+	min-width: 768px;
+	height: 298px;
+}
+
+.prefooter__text_block{
+	float: left;
+	margin: 0 4.5% 0 2.5%;
+	width: 27%;
+	height: 205px;
+}
+
+.prefooter__text_block--central{
+	margin: 0 0 0 3.2%;
+}
+
+.prefooter__text_block--bottom{
+	margin: 0 0 0 7.2%;
+}
+
+.footer-wrapper{
+	min-width: 768px;
+	text-align: left;
+}
+
+.footer-menu__item{
+	margin: 0 2.6% 0 2.5%;
+}
+
+.footer__text{
+	float: right;
+	margin: 0 11px 0 0;
+}
+
+header{
+	width: 980px;
+}
+
+header:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+h1{
+	float: left;
+	margin: 60px 0 0 8px;
+}
+
+.main-header{
+	margin: 0;
+}
+
+.main-menu{
+	float: left;
+	margin: 71px 0 0 171px;
+}
+
+.slider-wrapper{
+	margin: 142px auto 0;
+}
+
+.slider{
+	background-position: left 17px;
+}
+
+.slider__content_wrapper{
+	padding: 0 0 0 0;
+	width: 960px;
+}
+
+.slider__content{
+	padding: 94px 90px 0 0;
+	width: 520px;
+}
+
+.slider__header{
+	font-size: 60px;
+	line-height: 60px;
+	letter-spacing: -0.6px;
+}
+
+.slider__underheader{
+	font-size: 32px;
+	line-height: 32px;
+	letter-spacing: -0.08px;
+}
+
+.slider__underheader--hidden{
+	display: inline;
+}
+
+.slider__text{
+	margin: 6px 0 0 0;
+	height: 147px;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: -0.1px;
+}
+
+.slider__text:first-line{
+	line-height: 24px;
+}
+
+.iphone{
+	width: 274px;
+	height: 434px;
+	background: url(../img/iphone960.png);
+}
+
+.switch-slider{
+	left: 273px;
+	margin: 72px auto 54px;
+}
+
+.underwrapper-violet{
+	width: 980px;
+}
+
+.about_company{
+	margin: 72px 0 61px 51px;
+	width: 29%;
+}
+
+.about_company--top{
+	margin: 72px 0 61px 17px;
+}
+
+.about_company--bottom{
+	margin: 72px 0 61px 49px;
+}
+
+.about_company__icon{
+	background: url(../img/sprite.png) 0 9px;
+	background-repeat: no-repeat;
+}
+
+.about_company__icon2{
+	background: url(../img/sprite.png) -44px 11px;
+	background-repeat: no-repeat;
+}
+
+.about_company__icon3{
+	background: url(../img/sprite.png) -86px 9px;
+	background-repeat: no-repeat;
+}
+
+.about_company__header{
+	font-size: 30px;
+}
+
+.about_company__text{
+	padding: 5px 0 0 24px;
+	height: 124px;
+	letter-spacing: -0.37px;
+}
+
+.about_company__link{
+	margin: 12px 9px 0 0;
+}
+
+.underwrapper-light{
+	width: 980px;
+}
+
+.wrapper-from_blog{
+	margin: 0 0 0 9px;
+	width: 43.8%;
+}
+
+.from_blog{
+	padding: 32px 34px 19px 38px;
+	width: 353px;
+}
+
+.from_blog__header{
+	display: inline-block;
+	font-size: 30px;
+}
+
+.from_blog__text{
+	margin: 10px 0 0 0;
+	height: 170px;
+	letter-spacing: -0.35px;
+}
+
+.from_blog__switch{
+	left: 24px;
+}
+
+.news{
+	float: right;
+	margin: 0 24px 0 0;
+	padding: 11px 0 74px 0;
+}
+
+.underwrapper-light:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+.news_about--hidden-to-960{
+	display: inline;
+}
+
+.news__link_more{
+	margin: -1px 8px 0px 0;
+}
+
+.news__link_more--hide-from-960{
+	display: none;
+}
+
+.news__link_more--show-from-960{
+	display: inline;
+}
+
+.logos-wrapper{
+	padding: 0 68px 0 68px;
+	width: 844px;
 	text-align: center;
 }
 
 .logo{
-	margin: 0 7% 0 7%;
+	margin: 20px 10px 0 0;
+}
+
+.prefooter-wrapper{
+	padding: 92px 0 0 0;
+	width: 980px;
+	height: 304px;
+}
+
+.prefooter__text_block--show-from-960{
+	display: block;
+}
+
+.prefooter__text_block--hide-from-960{
+	display: none;
+}
+
+.prefooter__text_block{
+	margin: 0 0 0 8px;
+	width: 280px;
+}
+
+.prefooter__text_block--top{
+	margin: 0 51px 0 8px;
+}
+
+.prefooter__text_block--central{
+	margin: 0 52px 0 8px;
+}
+
+.prefooter__header{
+	font-size: 30px;
+}
+
+.prefooter__header--big{
+	font-size: 48px;
+	line-height: 52px;
+}
+
+.prefooter__header--grey{
+	color: #b9b9b9;
+}
+
+.prefooter__underheader{
+	margin: 10px 0 9px 0;
+	font-family: Georgia, serif;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: normal;
+	color: #c5c5c5;
+}
+
+.prefooter__text{
+	margin: 5px 0 0 0;
+}
+
+.footer-wrapper{
+	width: 980px;
+	height: 75px;
+}
+
+.footer-menu{
+	float: left;
+	width: 600px;
+}
+
+.footer-menu__item{
+	margin: 0 5.07% 0 1.5%;
+}
+
+.footer__text{
+	margin: 0 5px 0 0;
+	line-height: 41px;
 }
