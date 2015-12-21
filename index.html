@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" media="screen and (min-width: 480px)" href="css/w480+.css">
 	<link rel="stylesheet" media="screen and (min-width: 768px)" href="css/w768+.css">
+	<link rel="stylesheet" media="screen and (min-width: 960px)" href="css/w960+.css">
 	<title>PINGBULLER</title>
 	<!--[if lt IE 9]>
 	<link rel="stylesheet" href="css/ie-shit.css">
@@ -21,32 +22,32 @@
 	<![endif]-->
 </head>
 <body>
-	<div class="wrapper-top">
-		<header>
-			<h1>
-				<span class="main-header">PINGBULL</span><span class="main-header--violet">ER</span>
-			</h1>
-			<ul class="menu main-menu">
-				<li class="main-menu__item">HOME
-					<ul class="menu main-menu__hidden">
-						<li class="main-menu__hidden-item"><a class="main-menu__hidden-link main-menu__hidden-link--top" href="#">Home</a></li>
-						<li class="main-menu__hidden-item"><a class="main-menu__hidden-link" href="#">About</a></li>
-						<li class="main-menu__hidden-item"><a class="main-menu__hidden-link" href="#">Blog</a></li>
-						<li class="main-menu__hidden-item"><a class="main-menu__hidden-link" href="#">Products</a></li>
-						<li class="main-menu__hidden-item"><a class="main-menu__hidden-link" href="#">Lorem Ipsum</a></li>
-						<li class="main-menu__hidden-item"><a class="main-menu__hidden-link main-menu__hidden-link--bottom" href="#">Dolor Sit Amet</a></li>
-					</ul>
-				</li>
-			</ul>
-		</header>
+	<header>
+		<h1>
+			<span class="main-header">PINGBULL</span><span class="main-header--violet">ER</span>
+		</h1>
+		<ul class="menu main-menu">
+			<li class="main-menu__item">HOME
+				<ul class="menu main-menu__hidden">
+					<li class="main-menu__hidden-item"><a class="main-menu__hidden-link main-menu__hidden-link--top" href="#">Home</a></li>
+					<li class="main-menu__hidden-item"><a class="main-menu__hidden-link" href="#">About</a></li>
+					<li class="main-menu__hidden-item"><a class="main-menu__hidden-link" href="#">Blog</a></li>
+					<li class="main-menu__hidden-item"><a class="main-menu__hidden-link" href="#">Products</a></li>
+					<li class="main-menu__hidden-item"><a class="main-menu__hidden-link" href="#">Lorem Ipsum</a></li>
+					<li class="main-menu__hidden-item"><a class="main-menu__hidden-link main-menu__hidden-link--bottom" href="#">Dolor Sit Amet</a></li>
+				</ul>
+			</li>
+		</ul>
+	</header>
+	<div class="slider-wrapper">
 		<div class="slider">
 			<a href="#" class="slider__arrow slider__arrow-left"><img src="img/arrow-left.png" alt=""></a>
 			<div class="slider__content_wrapper">
 				<div class="slider__content">
 					<h2 class="slider__header">Lorem Ipsum Dolor</h2>
-					<h3 class="slider__underheader">IT WILL MAKE ALL OF YOUR DREAMS COME</h3>
+					<h3 class="slider__underheader">IT WILL MAKE ALL OF YOUR DREAMS COME <span class="slider__underheader--hidden hidden">TRUE</span></h3>
 					<p class="slider__text hidden">
-						Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper.
+						Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.
 					</p>
 				</div>
 				<div class="iphone"></div>
@@ -107,7 +108,8 @@
 				<div class="from_blog">
 					<h4 class="from_blog__header">PingbulLer</h4>
 					<h4 class="from_blog__header from_blog__header--violet">starts here</h4>
-					<p class="from_blog__text">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</p>
+					<p class="from_blog__text">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”
+					<br>Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.</p>
 				</div>
 				<div class="from_blog__switch">
 					<a href="#" class="from_blog__switch_link"><div></div></a>
@@ -129,7 +131,7 @@
 					<td class="news__link_cell">
 						<a href="#" class="news__link">
 							Nunc turpis neque <span class="news__link--hidden hidden">feugiat eget</span>
-							<p class="news__about">Posted by Admin on March 13 <span class="news__about--hidden hidden">2012</span></p>
+							<p class="news__about">Posted by Admin on March 13 <span class="news__about--hidden-to-480 hidden">2012</span><span class="news_about--hidden-to-960 hidden"> in Recent News</span></p>
 						</a>
 					</td>
 				</tr>
@@ -140,7 +142,7 @@
 					<td class="news__link_cell">
 						<a href="#" class="news__link">
 							Nunc turpis neque <span class="news__link--hidden hidden">feugiat eget</span>
-							<p class="news__about">Posted by Admin on March 13 <span class="news__about--hidden hidden">2012</span></p>
+							<p class="news__about">Posted by Admin on March 13 <span class="news__about--hidden-to-480 hidden">2012</span><span class="news_about--hidden-to-960 hidden"> in Category</span></p>
 						</a>
 					</td>
 				</tr>
@@ -151,62 +153,87 @@
 					<td class="news__link_cell">
 						<a href="#" class="news__link">
 							Nunc turpis neque <span class="news__link--hidden hidden">feugiat eget</span>
-							<p class="news__about">Posted by Admin on March 13 <span class="news__about--hidden hidden">2012</span></p>
+							<p class="news__about">Posted by Admin on March 13 <span class="news__about--hidden-to-480 hidden">2012</span><span class="news_about--hidden-to-960 hidden"> in Blog Updates</span></p>
 						</a>
 					</td>
 				</tr>
 				<tr>
 					<td colspan="2">
-						<a href="#" class="news__link_more">MORE BLOG POSTS</a>
+						<a href="#" class="news__link_more"><span class="news__link_more--hide-from-960">MORE BLOG POSTS</span><span class="news__link_more--show-from-960">READ MORE HERE</span></a>
 					</td>
 				</tr>
 			</table>
 		</div>
 	</div>
 	<div class="logos">
-		<img src="img/logo1.png" class="logo" alt="logo">
-		<img src="img/logo2.png" class="logo" alt="logo">
-		<img src="img/logo3.png" class="logo" alt="logo">
-		<img src="img/logo4.png" class="logo" alt="logo">
-		<img src="img/logo5.png" class="logo" alt="logo">
-		<img src="img/logo6.png" class="logo" alt="logo">
+		<div class="logos-wrapper">
+			<img src="img/logo1.png" class="logo" alt="logo">
+			<img src="img/logo2.png" class="logo" alt="logo">
+			<img src="img/logo3.png" class="logo" alt="logo">
+			<img src="img/logo4.png" class="logo" alt="logo">
+			<img src="img/logo5.png" class="logo" alt="logo">
+			<img src="img/logo6.png" class="logo" alt="logo">
+		</div>
 	</div>
 	<div class="prefooter hidden">
-		<div class="prefooter__text_block">
-			<h4 class="prefooter__header">
-			NEWS CATEGORIES
-			</h4>
-			<p class="prefooter__text">
-				Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.
-			</p>
-		</div>
-		<div class="prefooter__text_block prefooter__text_block--central">
-			<h4 class="prefooter__header">
-			NEWS CATEGORIES
-			</h4>
-			<p class="prefooter__text">
-				Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.
-			</p>
-		</div>
-		<div class="prefooter__text_block prefooter__text_block--bottom">
-			<h4 class="prefooter__header">
-			NEWS CATEGORIES
-			</h4>
-			<p class="prefooter__text">
-				Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.
-			</p>
+		<div class="prefooter-wrapper">
+			<div class="prefooter__text_block prefooter__text_block--show-from-960 prefooter__text_block--top hidden">
+				<h4 class="prefooter__header prefooter__header--big">
+				PIGBULL<span class="prefooter__header--grey">ER</span>
+				</h4>
+				<h5 class="prefooter__underheader">
+					Copyright 2013, Pingbull AS
+				</h5>
+				<p class="prefooter__text">
+					Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.
+				</p>
+			</div>
+			<div class="prefooter__text_block prefooter__text_block--show-from-960 hidden prefooter__text_block--central">
+				<h4 class="prefooter__header">
+				RECENT COMMENTS
+				</h4>
+				<p class="prefooter__text">
+					Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.
+				</p>
+			</div>
+			<div class="prefooter__text_block">
+				<h4 class="prefooter__header">
+				NEWS CATEGORIES
+				</h4>
+				<p class="prefooter__text">
+					Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.
+				</p>
+			</div>
+			<div class="prefooter__text_block prefooter__text_block--hide-from-960 prefooter__text_block--central">
+				<h4 class="prefooter__header">
+				NEWS CATEGORIES
+				</h4>
+				<p class="prefooter__text">
+					Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.
+				</p>
+			</div>
+			<div class="prefooter__text_block prefooter__text_block--hide-from-960 prefooter__text_block--bottom">
+				<h4 class="prefooter__header">
+				NEWS CATEGORIES
+				</h4>
+				<p class="prefooter__text">
+					Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.
+				</p>
+			</div>
 		</div>
 	</div>
 	<footer>
-		<ul class="menu footer-menu hidden">
-			<li class="footer-menu__item"><a class="footer-menu__link" href="#">Home</a></li>
-			<li class="footer-menu__item"><a class="footer-menu__link" href="#">About</a></li>
-			<li class="footer-menu__item"><a class="footer-menu__link" href="#">Blog</a></li>
-			<li class="footer-menu__item"><a class="footer-menu__link" href="#">Products</a></li>
-			<li class="footer-menu__item"><a class="footer-menu__link" href="#">Lorem Ipsum</a></li>
-			<li class="footer-menu__item"><a class="footer-menu__link" href="#">Dolor Sit Amet</a></li>
-		</ul>
-		<p class="footer__text"><span>Designed by&#160;</span><span class="footer__text footer__text--bold">Pingbull AS</span></p>
+		<div class="footer-wrapper">
+			<ul class="menu footer-menu hidden">
+				<li class="footer-menu__item"><a class="footer-menu__link" href="#">Home</a></li>
+				<li class="footer-menu__item"><a class="footer-menu__link" href="#">About</a></li>
+				<li class="footer-menu__item"><a class="footer-menu__link" href="#">Blog</a></li>
+				<li class="footer-menu__item"><a class="footer-menu__link" href="#">Products</a></li>
+				<li class="footer-menu__item"><a class="footer-menu__link" href="#">Lorem Ipsum</a></li>
+				<li class="footer-menu__item"><a class="footer-menu__link" href="#">Dolor Sit Amet</a></li>
+			</ul>
+			<p class="footer__text"><span>Designed by&#160;</span><span class="footer__text footer__text--bold">Pingbull AS</span></p>
+		</div>
 	</footer>
 </body>
 </html>
