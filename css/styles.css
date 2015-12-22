@@ -303,12 +303,15 @@ h1{
 	left: 0px;
 }
 
-.from_blog{
+.from_blog{z-index: 2;
 	margin: 0 0 0 24px;
 	padding: 25px 43px 27px 35px;
 	min-width: 178px;
 	height: 220px;
 	background: white;
+	-webkit-box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.05);
+	-moz-box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.05);
+	box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.05);
 }
 
 .from_blog__header{
